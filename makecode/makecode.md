@@ -6,7 +6,7 @@
 
 The following instructions are applied for Windows system but can also serve as a reference if you are using a different system.
 
-#### 1 Write code and program：
+ **1. Write code and program：**
 
 This chapter describes how to write program and load the program to the Micro: Bit main board V2.
 
@@ -90,7 +90,7 @@ This chapter has described how to use the Micro:bit main board.
 
 But except for the Makecode graphical programming introduced you can also write Micro:bit programs in other languages. Go to the link: https://microbit.org/code/> to know about other programming languages , or view the link: <https://microbit.org/projects/>, to find something you want to have a go.
 
-#### 2.Makecode：
+ **2. Makecode：**
 
 Browse <https://makecode.microbit.org/> and enter Makecode online editor or open the APP MakeCode for micro:bit of Windows 10.
 
@@ -104,7 +104,7 @@ There are blocks“on start”and“forever”in the code editing area.
 
 When the power is plugged or reset,“on start”means that the code in the block only executes once, while“forever”implies that the code runs cyclically.
 
-#### 3. Quick Download
+ **3. Quick Download**
 
 As mentioned before, if your computer is Windows 10 and you have downloaded the APP MakeCode for micro:bit to write programs, the program written can be quickly downloaded to the Micro: Bit main board by selecting ‘Download’.
 
@@ -153,7 +153,7 @@ After the pairing, click “download”to directly download the program to the b
 
 ![](media/96fbd5a50eb87de8ad464cbbd09624f1.png)
 
-#### 4.Makecode extension libraries:
+ **4. Makecode extension libraries:**
 
 We have made a makecode extension library for this Mecanum robot car.
 
@@ -208,7 +208,7 @@ Tap the refresh icon to update the corresponding MecanumRobot extension file.
 
 ![](media/b5a036316ec5869cc4c37b69115f1be2.png)
 
-#### 5.Resources and test code
+ **5. Resources and test code**
 
 We also provide a link：https://fs.keyestudio.com/KS4031-4032
 
@@ -216,7 +216,7 @@ You can obtain relevant test codes, tutorials and troubleshooting methods as wel
 
 ![](media/6ddb789cdf2000b0aa722d56000cbf6f.png)
 
-#### 6.Input test code
+ **6.Input test code**
 
 We provide hexadecimal code files (project files) for each project. The file contains all the contents of the project and can be imported directly, or you can manually drag the code blocks to complete the program for each project. For simple projects, dragging a block of code to complete the program is recommended.For complex projects, it is recommended to conduct the program by importing the hexadecimal code file we provide.
 
@@ -252,7 +252,7 @@ Note: if your computer system is Windows7 or 8 instead of Windows 10, the pairin
 
 However, you need to read the corresponding digital signal or analog signal.So what can we do? You can use the CoolTerm software to read the serial port data of the microbit. Next chapter is about how to install CoolTerm.
 
-#### 7.Install CoolTerm：
+ **7.Install CoolTerm：**
 
 CoolTerm program is used to read the data on serial port.
 

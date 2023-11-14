@@ -1,4 +1,4 @@
-# Getting Started With 4WD Mecanum Robot
+# **Getting Started With 4WD Mecanum Robot**
 
 ![](makecode/media/718228ea3ade238b6d0fc30b45bfa8d9.png)
 
@@ -162,7 +162,7 @@ micro:bit in file folder ![](makecode/media/0639221bcfa4728e2f8eeb5bc81a73d3.png
 This chapter will introduce the function and structure of keyestudio 4WD Mecanum Robot Car. It is a programmable car based on BBC micro:bit. Driven by motors, it boasts a line tracking sensor and an infrared receiver integrated into the bottom plate, an ultrasonic sensor, servos ,2 colorful lights, 4 WS2812 RGB lights. The wiring is not complicated and it has Lego jacks to facilitate
 connection with other peripheral devices. Abundant hardware resources will enable you to master more knowledge and skills, so that you can use your imagination to create more technological inventions.
 
-#### 6.1.Basic Information about Keyestudio 4WD Mecanum Robot Car
+ 6.1.Basic Information about Keyestudio 4WD Mecanum Robot Car
 
 This car can help you to better learn to use Micro:bit and obtain electronic knowledge.
 
@@ -190,7 +190,7 @@ The keyestudio 4WD Mecanum Robot Car is powered by two 18650 batteries. The batt
 
 Please note: This product does not contain batteries.
 
-#### 6.2. the Installation of keyestudio 4WD Mecanum Robot Car
+ 6.2. the Installation of keyestudio 4WD Mecanum Robot Car
 
 | Part 1                                                                                  |                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
