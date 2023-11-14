@@ -192,9 +192,9 @@ Please note: This product does not contain batteries.
 
  6.2. the Installation of keyestudio 4WD Mecanum Robot Car
 
-| Part 1                                                                                  |                                                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  Components Needed                                                                      | ![](makecode/media/731254f55fcfef311e70a4ff584972d8.jpeg)                   |
+| Part1   |        |
+|----|--------|
+|  Components Needed                                                                      | ![](makecode/media/731254f55fcfef311e70a4ff584972d8.jpeg)               |
 |   Installation Diagram                                                                  | ![](makecode/media/5310ba0f75fb4cd5cb99d140f36032a8.jpeg)               |
 |   Prototype                                                                             | ![](makecode/media/a5fa340b258a9c7df3436fb5a65e0655.jpeg)               |
 | Part 2                                                                                  |                                                                                                                                                                                                                   |
@@ -205,10 +205,10 @@ Please note: This product does not contain batteries.
 |  Components Needed                                                                      | ![](makecode/media/de5ba3aa83364faa82d613e2978e002c.jpeg)                   |
 |     Installation Diagram                                                                | ![](makecode/media/68420b045bcaaf216a972b5badb5d872.jpeg)               |
 |   Prototype                                                                             |  ![](makecode/media/0a07e6a182752d60a0660d8609f8132a.jpeg)              |
-| Part 4（adjust the angle of the servo first）                                           |                                                                                                                                                                                                                   |
-| Adjust the angle of the servo to 90 degrees according to the test code in project 8.15  |  ![](makecode/media/a9ff633c21fba9a17a65ef93ead42737.png)                                                                                                                                           |
+| Part 4（adjust the angle of the servo first,Adjust the angle of the servo to 90 degrees according to the test code in project 8.15 ）                                           |                                                                                                                                                                                                                   |
+|   |  ![](makecode/media/a9ff633c21fba9a17a65ef93ead42737.png)                                                                                                                                           |
 |  Components Needed                                                                      | ![](makecode/media/5248197874b16c55307e48246409aec2.jpeg)                   |
-|   Installation Diagram (mind the installation direction)                                | ![](makecode/media/7767b8db64847323d18cd6de91400d52.jpeg)               |
+|   Installation Diagram                                 | ![](makecode/media/7767b8db64847323d18cd6de91400d52.jpeg)               |
 |   Prototype                                                                             | ![](makecode/media/597e69277d33ce8dcc0db07e0625ba5b.jpeg)               |
 | Part 5                                                                                  |                                                                                                                                                                                                                   |
 |  Components Needed                                                                      | ![](makecode/media/463b3ac053e9fd2309d64ae1d5ceeb0a.jpeg)       |
@@ -220,11 +220,11 @@ Please note: This product does not contain batteries.
 |   Prototype                                                                             | ![](makecode/media/755dd618a650c3ad29a55659cd684418.jpeg)   |
 | Part 7                                                                                  |                                                                                                                                                                                                                   |
 |  Components Needed                                                                      | ![](makecode/media/b313c679a80581a7cb726fa75d8225fd.jpeg)   |
-|  Installation Diagram (mind the direction of the motor)                                 | ![](makecode/media/f0211b8293c1372a96e15334c48f7f37.jpeg)   |
+|  Installation Diagram                                  | ![](makecode/media/f0211b8293c1372a96e15334c48f7f37.jpeg)   |
 |   Prototype                                                                             | ![](makecode/media/ca1447273837723e5937b1a302b5a933.jpeg)   |
 | Part 8                                                                                  |                                                                                                                                                                                                                   |
 |   Components Needed                                                                     | ![](makecode/media/37c4ad21f3764c701144a293280d9e35.jpeg)   |
-| Installation Diagram (Pay attention to the installation direction of the mecanum wheel) | ![](makecode/media/2e0e201898f26bd935c5eba786b2ae7f.jpeg) |
+| Installation Diagram  | ![](makecode/media/2e0e201898f26bd935c5eba786b2ae7f.jpeg) |
 |   Prototype                                                                             | ![](makecode/media/040a41b916b6dc3f7dfcc8995e774cfb.jpeg) |
 | Part 9                                                                                  |                                                                                                                                                                                                                   |
 |  Components Needed                                                                      | ![](makecode/media/dd6f477de6c88645b26ccb847fdb94e4.jpeg) |
@@ -235,20 +235,20 @@ Please note: This product does not contain batteries.
 |    Installation Diagram                                                                 | ![](makecode/media/3db5a6521b8a1150dbf3da4545307bda.jpeg) |
 |   Prototype                                                                             | ![](makecode/media/46a9762f93ffcfcc310d71dea577e0af.jpeg) |
 | Start Wiring                                                                            |                                                                                                                                                                                                                   |
-|  The wiring of the RGB lights                                                           | ![](makecode/media/53966e62c7c3871c1053fe15af4f700d.jpeg)                                                                                                                                   |
-|  The wiring of the infrared receiver module                                             | ![](makecode/media/70cebd925116354a8c932ae10128341c.jpeg)                                                                                                                                   |
-| The wiring of the motor and colorful lights                                             | ![](makecode/media/f04513013a53e3ddb87df542298f271e.jpeg)                                                                                                                                   |
-|  The wiring of the line-tracking sensor                                                 | ![](makecode/media/912fad4351035c139ec28a31eb9cf456.jpeg)                                                                                                                                   |
-|  The wiring of the ultrasonic sensor                                                    | ![](makecode/media/cc5b9e7e23e8df976b29e2166fcba2aa.jpeg)                                                                                                                                   |
-|  The wiring of the servo                                                                | ![](makecode/media/5d3b1e01a42265cc2a926004a3788d15.jpeg)                                                                                                                                   |
-|  The wiring of the M1 motor                                                             | ![](makecode/media/678bd61732fcd06566b4f85d3ee80d3b.jpeg)                                                                                                                                   |
-|  The wiring of the M2 motor                                                             | ![](makecode/media/4caa988e8bb624f77d09da29b0fb533b.jpeg)                                                                                                                                   |
-|  The wiring of the M3 motor                                                             | ![](makecode/media/9c6b94cd86d8e9842ec54d43012bb16c.jpeg)                                                                                                                                   |
-|  The wiring of the M4 motor                                                             | ![](makecode/media/1e0643aedd31543493cedfec23f91fb9.jpeg)                                                                                                                                   |
-| The wiring of the power supply (the 5V is connected to the shield)                      | ![](makecode/media/3d5e4b76b7fd53201f5423d4afc1efb9.png)                                                                                                                                                            |
-|   Note the negative and positive poles of the battery                                   | ![Img](./makecode/media/img-20230522083736.png)
+|  RGB LED                                                           | ![](makecode/media/53966e62c7c3871c1053fe15af4f700d.jpeg)                                                                                                                                   |
+| Infrared receiver                                             | ![](makecode/media/70cebd925116354a8c932ae10128341c.jpeg)                                                                                                                                   |
+|Motor and colorful lights                                             | ![](makecode/media/f04513013a53e3ddb87df542298f271e.jpeg)                                                                                                                                   |
+|Line-tracking sensor                                                 | ![](makecode/media/912fad4351035c139ec28a31eb9cf456.jpeg)                                                                                                                                   |
+|Ultrasonic sensor                                                    | ![](makecode/media/cc5b9e7e23e8df976b29e2166fcba2aa.jpeg)                                                                                                                                   |
+|Servo                                                                | ![](makecode/media/5d3b1e01a42265cc2a926004a3788d15.jpeg)                                                                                                                                   |
+| M1 motor                                                             | ![](makecode/media/678bd61732fcd06566b4f85d3ee80d3b.jpeg)                                                                                                                                   |
+| M2 motor                                                             | ![](makecode/media/4caa988e8bb624f77d09da29b0fb533b.jpeg)                                                                                                                                   |
+|M3 motor                                                             | ![](makecode/media/9c6b94cd86d8e9842ec54d43012bb16c.jpeg)                                                                                                                                   |
+|M4 motor                                                             | ![](makecode/media/1e0643aedd31543493cedfec23f91fb9.jpeg)                                                                                                                                   |
+|Power supply                      | ![](makecode/media/3d5e4b76b7fd53201f5423d4afc1efb9.png)                                                                                                                                                            |
+| battery                                   | ![Img](./makecode/media/img-20230522083736.png)
                                                                                                                                                             |
-
+**Note the negative and positive poles of the battery**
 
 ## 7. Resources:
 
