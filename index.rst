@@ -1,10 +1,12 @@
 
 .. toctree::
-   :maxdepth: 5
-   :caption: KS4031 KS4032 Keyestudio 4WD Mecanum Robot Car Makecode
+   :maxdepth: 3
+   :caption: KS4031 KS4032 Keyestudio 4WD Mecanum Robot
 
 
-   KS4031-KS4032.md
+   home.md
+   makecode/makecode.md
+   python/python.md
 
 
 

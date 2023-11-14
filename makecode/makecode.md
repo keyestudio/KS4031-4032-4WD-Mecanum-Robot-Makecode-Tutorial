@@ -1,259 +1,12 @@
-# KS4031 KS4032 Keyestudio 4WD Mecanum Robot Car Makecode
+#  **Makecode Tutorial**
 
 ![](media/718228ea3ade238b6d0fc30b45bfa8d9.png)
 
-# 1.Introduction
-
-Have you wondered to learn programming or have your own programming robot? Nowadays, programming has developed to a lower age group, and it will be a trend for everyone to be able to program thanks to the spread of simple graphical programming platforms, from micro:bit to Arduino and Raspberry Pi. Maybe you haven't heard of them before. It doesn't matter because with the help of this product and tutorial, you can easily install a multi-functional programming car and experience the fun of being a maker.
-
-Micro:bit is a highly integrated microcontroller of powerful functions and small size. It is very suitable to be applied in STEAM education for it functions to make robots, wearable devices and electronic interactive games via the combination of code programming and graphical programming.
-
-This Keyestudio 4WD Mecanum Robot Car is a smart DIY car specially designed for micro:bit. The smart car kit consists of a car body with extended functions, a PCB base plate with integrated motor drive sensors, 4 decelerating DC motors, Mecanum wheels, various modules and sensors and acrylic boards. Therefore, you can easily assemble a cool Mecanum wheel 4WD smart car by yourself, and then use Microsoft's online graphical programming platform Make Code to program the micro:bit control board to control the car. In the process, you can not only experience the fun of creation but enhance hands-on ability and learn
-programming skills as well.
-
-MakeCode for micro:bit is the most widely used graphical programming environment on the micro:bit official website. It is based on the graphical programming environment developed by Microsoft's open source project MakeCode. This graphical programming can also be converted to code languages, python and javascript language. This combination makes learn programming easy. At the same time, MakeCode programming can be simulated or programmed for actual electronic
-components.
-
-For your convenience, source code has been provided in every project, as well as code programming steps and code explanation in details. Hope you can better understand them.
-
-
-
-# 2.Description
-
-This product is a smart car based on Micro:bit. It boasts multiply functions including ultrasonic sound following, line tracking, infrared control and Bluetooth control. It comes with a passive buzzer which is able to play music, 4 WS2812RGB LEDs to display different colors, 2 colorful lights to make direction lights for the car. This product uses two 18650 lithium batteries for power supply.
-
-When installing and disassembling the battery, please pay attention to the positive and negative poles of the battery, and be sure not to reverse the them. By the way, the motor speed of this product is adjustable.
-
-In order to provide you with better experience, corresponding documents about installation and test code are also provided.
-
-
-
-# 3.Parameters
-
--   Connector port input: DC 6V---9V
-
--   Operating voltage of drive board system: 5V
-
--   Standard operating power consumption: about 2.2W
-
--   Maximum power: Maximum output power is 12W
-
--   Motor speed: 200RPM/1min
-
--   Working temperature range: 0-50℃
-
--   Size: 120\*120\*120mm
-
--   Environmental protection attributes: ROHS
-
-Note: working voltage of micro:bit is 3.3V, driver shield integrates 3.3V/5V communication conversion circuit.
-
-
-
-# 4.Kit List
-
-| \# | Picture                                                                                               | Components                                                                 | Quantity |
-|----|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|----------|
-| 1  | ![](media/c4c1f66bfc8de61faaa619ba91fa7fc2.png)                                                      | KS0511 Acrylic Board T=3mm                                                 | 1        |
-| 2  | ![](media/7837c0367f7adbd2b21ad6f9a5c4c8b8.png)                                                      | Acrylic Board with Lego Holes T=3mm                                        | 1        |
-| 3  | ![](media/31d33954620e3b69bfd5557b8e0439e6.png)                                                      | 4.5V Motor                                                                 | 4        |
-| 4  | ![](media/2f64d4dabaa5bf1964fb34b23ef43132.png)                                                      |  23\*15\*5MM Fixing Board                                                  | 4        |
-| 5  | ![](media/2f229312cfd3bea2d0db3f440b81f690.png)                                                     | Servo                                                                      | 1        |
-| 6  | ![](media/f84b59007fb2517e6a783ad17970f790.png) | Mecanum Wheels                                                             | 4        |
-| 7  | ![](media/65884ae4c17de5249646d5389ae405c5.png)                                                   | Keyestudio Micro:bit IO Port Expansion Sensor Shield With Level Conversion | 1        |
-| 8  | ![](media/79badac57662af1bf343e5a8bf9db2d4.png)                                                     | KS4031--- With Micro:bit V2.0                                              |          |
-|    |                                                                                                       | KS4032---- Without Micro:bit V2.0                                          |          |
-| 9  | ![](media/0da9f59b26ac3d3d11e0895ed9d93147.png)                                                   |  Keyestudio Driver Board                                                   | 1        |
-| 10 | ![](media/810e2c6c01f8d934569784132b97e2b4.png)                                                     | M3\*20MM Dual-pass Copper Pillar                                           | 4        |
-| 11 | ![](media/1324daf45854ddded2c0eaa32c3257a4.png)                                                     |  4265c Lego Part                                                           | 4        |
-| 12 | ![](media/01fb7aa79db725d6c10895e435a0009d.png)                                                     |  43093 Lego Part                                                           | 4        |
-| 13 | ![](media/d101ebf87f35fb78e3db9c2ed88eab57.png)                                                     | Acrylic Gasket Six in One Pack                                             | 1        |
-| 14 | ![](media/80fe963eb9b399fb655f5b0fd4b4dc60.png)                                                     | M3\*6MM Round Head Screw                                                   | 18       |
-| 15 | ![](media/a96e975b2faeb956bb4f16500f55adca.png)                                                     | Keyestudio Ultrasonic Module                                               | 1        |
-| 16 | ![](media/ba55fc578ecd84cecd2e7abc0db087f5.png)                                                     | M3 Nickle-plated Nut                                                       | 14       |
-| 17 | ![](media/30ac283b6f6177536ce62ab88d9733ff.png)                                                     | M3\*30MM Round Head Screw                                                  | 9        |
-| 18 | ![](media/5da761be5dad1e7db6f2678b0f4e862d.png)                                                     | M2 Nickle-plated Nut                                                       | 3        |
-| 19 | ![](media/dfbaff8ac89eaed99240c0ab2d307c45.png)                                                     | M2\*8MM Round Head Screw                                                   | 3        |
-| 20 | ![](media/ac53799118ad167bb28ed0817bd380c9.png)                                                     | M3\*8MM Round Head Screw                                                   | 5        |
-| 21 | ![](media/40d21ac6488bfbd3b6a1ccfbd7da0fd7.png)                                                 | Remote Control (without batteries)                                         | 1        |
-| 22 | ![](media/f295dba2d37da50283d15d52b29824bb.png)                                                     | Plastic String 3\*100mm                                                    | 5        |
-| 23 | ![](media/4e904036bc560a3ea4c078a19eefd10e.png)                                                      | USB Cable                                                                  | 1        |
-| 24 | ![](media/625dbb35c944669554040070898564c6.png)                                                      | HX-2.54 2P DuPont Wire 100mm                                               | 1        |
-| 25 | ![](media/90e8fb3cc3480943f0cbdc61922a8183.png)                                                     |  HX-2.54 4P DuPont Wire 50mm                                               | 2        |
-| 26 | ![](media/ce69a36818263a19cec0f74a843b73ff.png)                                                      | XH2.54 4P DuPont Wire 160mm                                                | 1        |
-| 27 | ![](media/13c73841255c28efc676f59f1b3d2479.png)                                                      | XH2.54 3P DuPont Wire 50mm                                                 | 2        |
-| 28 | ![](media/6833beefc1c2e7f41738663b526402d9.png)                                                     | 3\*40mm Screwdriver                                                        | 1        |
-| 29 | ![](media/d322da60be4c1aab1efb384202da16c3.png)                                                     | M1.2\*5mm Round Head Self-tapping Screw                                    | 6        |
-
-# 5.Preparations:
-
-**5.1 Background Information about Micro:bit**
-
-**( 1 )What is Micro:bit?**
-
-Micro:bit is an open source hardware platform based on the ARM architecture launched by British Broadcasting Corporation (BBC) together with ARM, Barclays, element14, Microsoft and other institutions. The core device is a 32-bit Arm Cortex-M4 with FPU micro-processing.
-
-Though it is just the size of a credit card, the Micro:bit main board is equipped with loads of components,including a 5\*5 LED dot matrix, 2 programmable buttons, an accelerometer, a compass, a thermometer, a touch-sensitive logo and a MEMS microphone, a Bluetooth module of low energy, and a buzzer and others. Thus, it also boasts multiple functions.
-
-The buzzer built in the other side of the board makes playing all kinds of sound possible without any external equipment. The golden fingers and gears added provide a better fixing of crocodile clips. Moreover, this board has a sleeping mode to lower power consumption of batteries and it can be entered if users long press the Reset & Power button on the back of it. It is capable of reading the data of sensors, controlling servos and RGB lights and attaching with a shield so as to connect with various sensors. It also supports a variety of codes and graphical programming platforms, and is compatible with almost all PCs and mobile devices. It has no need to install drivers. It is of high integration of electronic modules, and has a serial port monitoring function for easy debugging.
-
-The board has found wide applications. It can be applied in programming video games, making interactions between light and sound, controlling a robot, conducting scientific experiments, developing wearable devices and make some cool inventions like robots and musical instruments, basically everything imaginable.
-
-**( 2 )Layout**
-
-![](media/ae1ddaa286548b2e6414a8284f85325d.png)
-
-For more information,please resort to following links：https://tech.microbit.org/hardware/
-
-https://microbit.org/new-microbit/
-
-https://www.microbit.org/get-started/user-guide/overview/
-
-<https://microbit.org/get-started/user-guide/features-in-depth/>
-
-**( 3 ) Pinout**
-
-![](media/827b32e06f290b4aa4425c60b335d5b2.png)
-
-**The functions of pins:**
-
-| GPIO                       | P0，P1，P2，P3，P4，P5，P6，P7，P8，P9，P10，P11，P12，P13，P14，P15，P16，P19，P20                |
-|----------------------------|----------------------------------------------------------------------------------------------------|
-| ADC/DAC                    | P0，P1，P2，P3，P4，P10                                                                            |
-| IIC                        | P19（SCL），P20（SDA）                                                                             |
-| SPI                        | P13（SCK），P14（MISO），P15（MOSI）                                                               |
-| PWM（used frequently）     | P0，P1，P2，P3，P4，P10                                                                            |
-| PWM（not frequently used） | P5、P6、P7、P8、P9、P11、P12、P13、P14、P15、P16、P19、P20                                         |
-| Occupied                   | P3(LED Col3)，P4(LED Col1)，P5(Button A)，P6(LED Col4)，P7(LED Col2)，P10(LED Col5)，P11(Button B) |
-
-Browse the official website for more details:
-
-<https://tech.microbit.org/hardware/edgeconnector/>
-
-<https://microbit.org/guide/hardware/pins/>
-
-**( 4 )Notes for the application of Micro:bit main board**
-
-1.  It is recommended to cover it with a silicone protector to prevent short circuit for it has a lot of sophisticated electronic components.
-    
-1.  Its IO port is very weak in driving since it can merely handle current less than 300mA. Therefore, do not connect it with devices operating in large current, such as servo MG995 and DC motor or it will get burnt. Furthermore, you must figure out the current requirements of the devices before you use them and it is generally recommended to use the board together with a Micro:bit shield.
-    
-1.  It is recommended to power the main board via the USB interface or via the battery of 3V. The IO port of this board is 3V, so it does not support sensors of 5V. If you need to connect sensors of 5 V, a Micro: Bit expansion board is required.
-    
-1.  When using pins(P3, P4, P6, P7 and P10)shared with the LED dot matrix, blocking them from the matrix or the LEDs may display randomly and the data about sensors connected maybe wrong.
-    
-1.  Pin 19 and 20 can not be used as IO ports though the Makecode shows they can. They can only be used as I2C communication.
-    
-1.  The battery port of 3V cannot be connected with battery more than 3.3V or the main board will be damaged.
-    
-1.  Forbid to operate it on metal products to avoid short circuit.
-
-To put it simple, Micro:bit V2 main board is like a microcomputer which has made programming at our fingertips and enhanced digital innovation. And as for programming environment, BBC provides a website: <https://microbit.org/code/,> which has a graphical MakeCode program easy for use.
-
-**5.2.Install Micro:bit driver**
-
-Micro:bit is free of driver installation. However, in case your computer fail to recognize the main board, you can install the diver too.
-
-Just enter the link https://fs.keyestudio.com/KS4031-4032 to download the driver file ![](media/78709f5e0a6fdbd6a0f1c47873273353.png) of
-micro:bit in file folder ![](media/0639221bcfa4728e2f8eeb5bc81a73d3.png)
-
-# 6.Keyestudio 4WD Mecanum Robot Car
-
-This chapter will introduce the function and structure of keyestudio 4WD Mecanum Robot Car. It is a programmable car based on BBC micro:bit. Driven by motors, it boasts a line tracking sensor and an infrared receiver integrated into the bottom plate, an ultrasonic sensor, servos ,2 colorful lights, 4 WS2812 RGB lights. The wiring is not complicated and it has Lego jacks to facilitate
-connection with other peripheral devices. Abundant hardware resources will enable you to master more knowledge and skills, so that you can use your imagination to create more technological inventions.
-
-## 6.1.Basic Information about Keyestudio 4WD Mecanum Robot Car
-
-This car can help you to better learn to use Micro:bit and obtain electronic knowledge.
-
-**Components:** an ultrasonic sensor, servos ,2 colorful lights, 4 WS2812 RGB lights 4 decelerating DC motors, Mecanum wheels,
-
-| Sensor | Colorful light | Decelerating DC motor | Servo | Ultrasonic sensor | Line Tracking Sensor | Infrared Receiver   | WS2812  RGB light  | Power switch |
-|--------|----------------|-----------------------|-------|-------------------|----------------------|---------------------|--------------------|--------------|
-| \#     | 2              | 4                     | 1     | 1                 | 1                    | 1                   | 4                  | 1            |
-
-Note: the line tracking sensor, WS2812 RGB lights and infrared receiver servo are integrated in the base.
-
-**Pins：**
-
-| Pin on Micro:bit  | Sensors of the keyestudio 4WD Mecanum Robot Car |
-|-------------------|-------------------------------------------------|
-| P1 P2             | Line Tracking Sensor                            |
-| P14               | Servo                                           |
-| P8                | 4个WS2812RGB Lights                             |
-| P9                | Infrared Receiver                               |
-| P15P16            | Ultrasonic Sensor                               |
-
-**Power supply and Battery**
-
-The keyestudio 4WD Mecanum Robot Car is powered by two 18650 batteries. The battery holder of the car is compatible with any type of 18650 lithium battery (rechargeable). You can use a universal battery charger to charge the 18650 lithium battery.
-
-Please note: This product does not contain batteries.
-
-## 6.2. the Installation of keyestudio 4WD Mecanum Robot Car
-
-| Part 1                                                                                  |                                                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  Components Needed                                                                      | ![](media/731254f55fcfef311e70a4ff584972d8.jpeg)                   |
-|   Installation Diagram                                                                  | ![](media/5310ba0f75fb4cd5cb99d140f36032a8.jpeg)               |
-|   Prototype                                                                             | ![](media/a5fa340b258a9c7df3436fb5a65e0655.jpeg)               |
-| Part 2                                                                                  |                                                                                                                                                                                                                   |
-|   Components Needed                                                                     | ![](media/875feba53492c8146cc83bf74476550b.jpeg)                   |
-|    Installation Diagram                                                                 | ![](media/b9ea2932e42db6fa832ff5e6358afef5.jpeg)               |
-|    Prototype                                                                            | ![](media/4e937948a3204c094fdef30bfc70c807.jpeg)               |
-| Part 3                                                                                  |                                                                                                                                                                                                                   |
-|  Components Needed                                                                      | ![](media/de5ba3aa83364faa82d613e2978e002c.jpeg)                   |
-|     Installation Diagram                                                                | ![](media/68420b045bcaaf216a972b5badb5d872.jpeg)               |
-|   Prototype                                                                             |  ![](media/0a07e6a182752d60a0660d8609f8132a.jpeg)              |
-| Part 4（adjust the angle of the servo first）                                           |                                                                                                                                                                                                                   |
-| Adjust the angle of the servo to 90 degrees according to the test code in project 8.15  |  ![](media/a9ff633c21fba9a17a65ef93ead42737.png)                                                                                                                                           |
-|  Components Needed                                                                      | ![](media/5248197874b16c55307e48246409aec2.jpeg)                   |
-|   Installation Diagram (mind the installation direction)                                | ![](media/7767b8db64847323d18cd6de91400d52.jpeg)               |
-|   Prototype                                                                             | ![](media/597e69277d33ce8dcc0db07e0625ba5b.jpeg)               |
-| Part 5                                                                                  |                                                                                                                                                                                                                   |
-|  Components Needed                                                                      | ![](media/463b3ac053e9fd2309d64ae1d5ceeb0a.jpeg)       |
-|   Installation Diagram                                                                  | ![](media/f5898cfe1cbcdeadd486e3bdc50995b5.jpeg)   |
-|   Prototype                                                                             | ![](media/2bb12512a13b5eca1ca46136db0d1f51.jpeg)   |
-| Part 6                                                                                  |                                                                                                                                                                                                                   |
-|   Components Needed                                                                     | ![](media/54f950129507af1571243b66068c45fe.jpeg)   |
-|   Installation Diagram                                                                  | ![](media/3ade007eeb772bfe1397775bca0f6aa4.jpeg)   |
-|   Prototype                                                                             | ![](media/755dd618a650c3ad29a55659cd684418.jpeg)   |
-| Part 7                                                                                  |                                                                                                                                                                                                                   |
-|  Components Needed                                                                      | ![](media/b313c679a80581a7cb726fa75d8225fd.jpeg)   |
-|  Installation Diagram (mind the direction of the motor)                                 | ![](media/f0211b8293c1372a96e15334c48f7f37.jpeg)   |
-|   Prototype                                                                             | ![](media/ca1447273837723e5937b1a302b5a933.jpeg)   |
-| Part 8                                                                                  |                                                                                                                                                                                                                   |
-|   Components Needed                                                                     | ![](media/37c4ad21f3764c701144a293280d9e35.jpeg)   |
-| Installation Diagram (Pay attention to the installation direction of the mecanum wheel) | ![](media/2e0e201898f26bd935c5eba786b2ae7f.jpeg) |
-|   Prototype                                                                             | ![](media/040a41b916b6dc3f7dfcc8995e774cfb.jpeg) |
-| Part 9                                                                                  |                                                                                                                                                                                                                   |
-|  Components Needed                                                                      | ![](media/dd6f477de6c88645b26ccb847fdb94e4.jpeg) |
-|    Installation Diagram                                                                 | ![](media/2fd6edcfe34bdc77c2e0c636c3a0232b.jpeg) |
-|   Prototype                                                                             | ![](media/3969e9f4a13eccacc0423832086ea0c3.jpeg) |
-| Part 10                                                                                 |                                                                                                                                                                                                                   |
-|   Components Needed                                                                     | ![](media/bf277995e35dba43ee4b12c5e2914cb0.jpeg) |
-|    Installation Diagram                                                                 | ![](media/3db5a6521b8a1150dbf3da4545307bda.jpeg) |
-|   Prototype                                                                             | ![](media/46a9762f93ffcfcc310d71dea577e0af.jpeg) |
-| Start Wiring                                                                            |                                                                                                                                                                                                                   |
-|  The wiring of the RGB lights                                                           | ![](media/53966e62c7c3871c1053fe15af4f700d.jpeg)                                                                                                                                   |
-|  The wiring of the infrared receiver module                                             | ![](media/70cebd925116354a8c932ae10128341c.jpeg)                                                                                                                                   |
-| The wiring of the motor and colorful lights                                             | ![](media/f04513013a53e3ddb87df542298f271e.jpeg)                                                                                                                                   |
-|  The wiring of the line-tracking sensor                                                 | ![](media/912fad4351035c139ec28a31eb9cf456.jpeg)                                                                                                                                   |
-|  The wiring of the ultrasonic sensor                                                    | ![](media/cc5b9e7e23e8df976b29e2166fcba2aa.jpeg)                                                                                                                                   |
-|  The wiring of the servo                                                                | ![](media/5d3b1e01a42265cc2a926004a3788d15.jpeg)                                                                                                                                   |
-|  The wiring of the M1 motor                                                             | ![](media/678bd61732fcd06566b4f85d3ee80d3b.jpeg)                                                                                                                                   |
-|  The wiring of the M2 motor                                                             | ![](media/4caa988e8bb624f77d09da29b0fb533b.jpeg)                                                                                                                                   |
-|  The wiring of the M3 motor                                                             | ![](media/9c6b94cd86d8e9842ec54d43012bb16c.jpeg)                                                                                                                                   |
-|  The wiring of the M4 motor                                                             | ![](media/1e0643aedd31543493cedfec23f91fb9.jpeg)                                                                                                                                   |
-| The wiring of the power supply (the 5V is connected to the shield)                      | ![](media/3d5e4b76b7fd53201f5423d4afc1efb9.png)                                                                                                                                                            |
-|   Note the negative and positive poles of the battery                                   | ![Img](./media/img-20230522083736.png)
-                                                                                                                                                            |
-
-# 7.Get Started with Micro:bit
+## Get Started with Micro:bit
 
 The following instructions are applied for Windows system but can also serve as a reference if you are using a different system.
 
-## 7.1 Write code and program：
+#### 1 Write code and program：
 
 This chapter describes how to write program and load the program to the Micro: Bit main board V2.
 
@@ -283,7 +36,7 @@ View the link <https://makecode.microbit.org/> in your browser. Click ‘New Pro
 
 The dialog box‘Create a Project’ appears, fill it with‘heartbeat’and click ‘Create √’to edit.
 
-(If you are running Windows 10 system, it is also viable to edit on the APP MakeCode for micro:bit , which is exactly like editing in the website. And the link to the APP is:[https://www.microsoft.com/zh-cn/p/makecode-for-micro-bit/9pjc7sv48lcx?ocid=badgep&rtc=1&activetab=pivot:overviewtab](https://www.microsoft.com/zh-cn/p/makecode-for-micro-bit/9pjc7sv48lcx?ocid=badgep&rtc=1#activetab=pivot:overviewtab))
+(If you are running Windows 10 system, it is also viable to edit on the APP MakeCode for micro:bit , which is exactly like editing in the website. And the link to the APP is:[https://www.microsoft.com/zh-cn/p/makecode-for-micro-bit/9pjc7sv48lcx?ocid=badgep&rtc=1&activetab=pivot:overviewtab](https://www.microsoft.com/zh-cn/p/makecode-for-micro-bit/9pjc7sv48lcx?ocid=badgep&rtc=1##activetab=pivot:overviewtab))
 
 ![](media/fd741a4a932cf25b5165c8135b512848.png)
 
@@ -337,7 +90,7 @@ This chapter has described how to use the Micro:bit main board.
 
 But except for the Makecode graphical programming introduced you can also write Micro:bit programs in other languages. Go to the link: https://microbit.org/code/> to know about other programming languages , or view the link: <https://microbit.org/projects/>, to find something you want to have a go.
 
-## 7.2.Makecode：
+#### 2.Makecode：
 
 Browse <https://makecode.microbit.org/> and enter Makecode online editor or open the APP MakeCode for micro:bit of Windows 10.
 
@@ -351,7 +104,7 @@ There are blocks“on start”and“forever”in the code editing area.
 
 When the power is plugged or reset,“on start”means that the code in the block only executes once, while“forever”implies that the code runs cyclically.
 
-## 7.3 Quick Download
+#### 3. Quick Download
 
 As mentioned before, if your computer is Windows 10 and you have downloaded the APP MakeCode for micro:bit to write programs, the program written can be quickly downloaded to the Micro: Bit main board by selecting ‘Download’.
 
@@ -400,7 +153,7 @@ After the pairing, click “download”to directly download the program to the b
 
 ![](media/96fbd5a50eb87de8ad464cbbd09624f1.png)
 
-## 7.4.Makecode extension libraries:
+#### 4.Makecode extension libraries:
 
 We have made a makecode extension library for this Mecanum robot car.
 
@@ -455,7 +208,7 @@ Tap the refresh icon to update the corresponding MecanumRobot extension file.
 
 ![](media/b5a036316ec5869cc4c37b69115f1be2.png)
 
-## 7.4.Resources and test code
+#### 5.Resources and test code
 
 We also provide a link：https://fs.keyestudio.com/KS4031-4032
 
@@ -463,7 +216,7 @@ You can obtain relevant test codes, tutorials and troubleshooting methods as wel
 
 ![](media/6ddb789cdf2000b0aa722d56000cbf6f.png)
 
-## 7.5.Input test code
+#### 6.Input test code
 
 We provide hexadecimal code files (project files) for each project. The file contains all the contents of the project and can be imported directly, or you can manually drag the code blocks to complete the program for each project. For simple projects, dragging a block of code to complete the program is recommended.For complex projects, it is recommended to conduct the program by importing the hexadecimal code file we provide.
 
@@ -499,7 +252,7 @@ Note: if your computer system is Windows7 or 8 instead of Windows 10, the pairin
 
 However, you need to read the corresponding digital signal or analog signal.So what can we do? You can use the CoolTerm software to read the serial port data of the microbit. Next chapter is about how to install CoolTerm.
 
-## 7.6.Install CoolTerm：
+#### 7.Install CoolTerm：
 
 CoolTerm program is used to read the data on serial port.
 
@@ -536,11 +289,11 @@ The functions of each button on the Toolbar are listed below: <http://wiki.keyes
 | ![](media/36e13c266fd4b9723d9db40fe30cd203.png) | Display the Terminal Data in Hexadecimal Format  |
 | ![](media/b505c71c3344036730b1d67f0c62a354.png)        | Display the Help Window                          |
 
-# 8.Projects
+## Projects
 
 (Note: project 8.1 to 8.12 will be conducted with the built-in sensors and LED dot matrix of the Micro:bit main board V2)
 
-## Project 1: Heartbeat
+### Project 1: Heartbeat
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -562,7 +315,7 @@ Or click“New Project”and drag blocks step by step
 
 **(3)Test Code**
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                  | File Name                |
 |-----------|---------------------------------------------------------------------------------------|--------------------------|
@@ -595,7 +348,7 @@ Download code to micro:bit and keep USB cable connected. The LED dot matrix will
 
 If the download is not success, try to disconnect micro:bit from your computer and then reconnect them and reopen Makecode to try again.
 
-## Project 2: Light A Single LED
+### Project 2: Light A Single LED
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -611,13 +364,13 @@ The LED dot matrix consists of 25 LEDs arranged in a 5 by 5 square. In order to 
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码)
+Import Hex profile [(How to import?)](##_7.6.导入代码)
 
 Or click“New Project”and drag blocks step by step
 
 **(3)Test Code**
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                           | File Name                         |
 |-----------|------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -679,7 +432,7 @@ After uploading test code to micro:bit main board V2 and powering the main board
 
 ([How to download?] [How to quick download?])
 
-## Project 3: LED Dot Matrix
+### Project 3: LED Dot Matrix
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -697,7 +450,7 @@ What’s more, we can also click”show icon“ to choose the pattern we like to
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码)
+Import Hex profile [(How to import?)](##_7.6.导入代码)
 
 Or click“New Project”and drag blocks step by step
 
@@ -705,7 +458,7 @@ Or click“New Project”and drag blocks step by step
 
 **Code 1：**
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                          | File Name                    |
 |-----------|-----------------------------------------------------------------------------------------------|------------------------------|
@@ -735,7 +488,7 @@ Select“JavaScript" and“Python”to switch into JavaScript and Python languag
 
 **Code 2：**
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                          | File Name                    |
 |-----------|-----------------------------------------------------------------------------------------------|------------------------------|
@@ -801,7 +554,7 @@ Upload code 2 and plug micro:bit in power, Micro: bit starts showing number 1, 2
 
 ([How to download?] [How to quick download?])
 
-## Project 4: Programmable Buttons
+### Project 4: Programmable Buttons
 
 ![](media/06be84fb11b1fd07cd0cbb392132b903.png)
 
@@ -947,7 +700,7 @@ After uploading test code 2 to micro:bit main board V2 and powering the main boa
 
 ([How to download?] [How to quick download?])
 
-## Project 5: Temperature Measurement
+### Project 5: Temperature Measurement
 
 **(1)Project Description**
 
@@ -1096,11 +849,11 @@ Click“JavaScript", the corresponding JavaScript code is shown below:
 
 Upload the Code 1 and plug in power. And 5\*5LED displays the ambient temperature. When pressing the temperature sensor, the temperature will grow on dot matrix.
 
-Upload the code 2 plug in micro:bit via USB cable, when the ambient temperature is less than 35℃, 5\*5LED will show<img src="media/4b1765e12b413dc5d562f2a16d32392f.png" style="zoom:33%;" />. When the temperature is equivalent to or greater than 35℃, the pattern<img src="media/f2705fbc4886efcfaac96589ca255f66.png" style="zoom:33%;" /> will appear.
+Upload the code 2 plug in micro:bit via USB cable, when the ambient temperature is less than 35℃, 5\*5LED will show![](media/4b1765e12b413dc5d562f2a16d32392f.png). When the temperature is equivalent to or greater than 35℃, the pattern![](media/f2705fbc4886efcfaac96589ca255f66.png) will appear.
 
 ([How to download?] [How to quick download?])
 
-## Project 6: Geomagnetic Sensor
+### Project 6: Geomagnetic Sensor
 
 ![](media/24c31bb0174e2ac672203e5c36c6875e.png)
 
@@ -1120,7 +873,7 @@ In addition, the objects nearby may affect the accuracy of readings and calibrat
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码) Or click“New Project”and drag blocks step by step
+Import Hex profile [(How to import?)](##_7.6.导入代码) Or click“New Project”and drag blocks step by step
 
 **(3)Test Code**
 
@@ -1128,7 +881,7 @@ Import Hex profile [(How to import?)](#_7.6.导入代码) Or click“New Project
 
 Press A on micro:bit, the value of compass is shown.
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                             | File Name                       |
 |-----------|--------------------------------------------------------------------------------------------------|---------------------------------|
@@ -1243,7 +996,7 @@ C. Set to“x≥23 and x\<68”,“x≥68 and x\<113 ”,“x≥113 and x\<158 �
 
 D. Then copy “show leds”for 7 times and keep them below the “else if.......then” block respectively.
 
-E. Click the blue boxes to form the pattern“<img src="media/4c73992fa4dfc6a2735b49ea8f000ed6.png" style="zoom:33%;" />”,“<img src="media/0771b8fd797a3e945a01ec1525ba4a9d.png" style="zoom:33%;" />”,“<img src="media/41eb716a282d52483e8467704613d034.png" style="zoom:33%;" />”,“<img src="media/2cae18294b329c10ecdefd768d6954e0.png" style="zoom:33%;" />”,“<img src="media/14b893d1a7157d72209b975d0df8d890.png" style="zoom:33%;" />”,“<img src="media/c362406f55115926523a0f60e16828b6.png" style="zoom:33%;" />”and“<img src="media/3977e13fdec2bfbc7fc55f5dce4969a9.png" style="zoom: 50%;" />”.
+E. Click the blue boxes to form the pattern“![](media/4c73992fa4dfc6a2735b49ea8f000ed6.png)”,“![](media/0771b8fd797a3e945a01ec1525ba4a9d.png)”,“![](media/41eb716a282d52483e8467704613d034.png)”,“![](media/2cae18294b329c10ecdefd768d6954e0.png)" />”,“![](media/14b893d1a7157d72209b975d0df8d890.png)”,“![](media/c362406f55115926523a0f60e16828b6.png)”and“![](media/3977e13fdec2bfbc7fc55f5dce4969a9.png)”.
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
@@ -1297,7 +1050,7 @@ Upload code 2 and plug micro:bit into power. After calibration, tilt micro:bit b
 
 ([How to download?] [How to quick download?])
 
-## Project 7: Accelerometer
+### Project 7: Accelerometer
 
 ![](media/24c31bb0174e2ac672203e5c36c6875e.png)
 
@@ -1315,13 +1068,13 @@ For this project, we will introduce the detection of several special postures by
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码) Or click“New Project”and drag blocks step by step
+Import Hex profile [(How to import?)](##_7.6.导入代码) Or click“New Project”and drag blocks step by step
 
 **(3)Test Code**
 
 **Code 1：**
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                        | File Name                  |
 |-----------|---------------------------------------------------------------------------------------------|----------------------------|
@@ -1351,7 +1104,7 @@ Click“JavaScript", you will view the corresponding JavaScript code:
 
 Detect the value of acceleration speed at x, y and z axis
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                        | File Name                  |
 |-----------|---------------------------------------------------------------------------------------------|----------------------------|
@@ -1450,7 +1203,7 @@ When the board is knocked to the floor, this process can be considered as a free
 
 Attention: if you’d like to try this function, you can also set the acceleration to 3g, 6g or 8g. But still ,we do not recommend.
 
-## Project 8: Light Detection
+### Project 8: Light Detection
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
 
@@ -1466,13 +1219,13 @@ When the light irradiates the LED matrix, the voltage change will be produced. T
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码)
+Import Hex profile [(How to import?)](##_7.6.导入代码)
 
 Or click“New Project”and drag blocks step by step
 
 **(3)Test Code**
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                        | File Name                  |
 |-----------|---------------------------------------------------------------------------------------------|----------------------------|
@@ -1534,7 +1287,7 @@ Then click“OK”and“Connect”. The light intensity value is shown below:
 
 ![](media/77a6de8ab9b171353693610a09f3a83c.png)
 
-## Project 9: Speaker
+### Project 9: Speaker
 
 ![](media/ac515b9ae8891dc32f368a29f194a2fb.png)
 
@@ -1602,7 +1355,7 @@ After uploading the test code to micro:bit main board V2 and powering the board 
 
 ([How to download?] [How to quick download?])
 
-## Project 10: Touch-sensitive Logo
+### Project 10: Touch-sensitive Logo
 
 ![](media/644695850097c5ade080bb4848b4b481.png)
 
@@ -1618,13 +1371,13 @@ It contains a capacitive touch sensor that senses small changes in the electric 
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码)
+Import Hex profile [(How to import?)](##_7.6.导入代码)
 
 Or click“New Project”and drag blocks step by step
 
 **(3)Test Code**
 
-The route to get test code（[How to load?](#_5.5.导入代码：)）
+The route to get test code（[How to load?](##_5.5.导入代码：)）
 
 | File Type | Path                                                                                 | File Name              |
 |-----------|--------------------------------------------------------------------------------------|------------------------|
@@ -1695,7 +1448,7 @@ After uploading the test code to micro:bit main board V2 and powering the board 
 
 ([How to download?] [How to quick download?])
 
-## Project 11: Microphone
+### Project 11: Microphone
 
 ![](media/7f0741158e734ff8449d5b87d5ba85f4.png)
 
@@ -1709,7 +1462,7 @@ The Micro: Bit main board V2 is built with a microphone which can test the volum
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码)
+Import Hex profile [(How to import?)](##_7.6.导入代码)
 
 Or click“New Project”and drag blocks step by step
 
@@ -1843,7 +1596,7 @@ When the sound is louder around, the sound value shows in the serial port is big
 
 What’s more, when pressing the button A, the LED dot matrix displays the value of the biggest volume( please note that the biggest volume can be reset via the Reset button on the other side of the board ) while when clapping, the LED dot matrix shows the pattern of the sound.
 
-## Project 12: Bluetooth Wireless Communication
+### Project 12: Bluetooth Wireless Communication
 
 ![](media/55b2424d88ba1ba8a711c49418ca8dc6.png)
 
@@ -1861,7 +1614,7 @@ Since setting up Android phones to achieve wireless transmission is similar to t
 
 -   Open online Makecode editor
 
-Import Hex profile [(How to import?)](#_7.6.导入代码)
+Import Hex profile [(How to import?)](##_7.6.导入代码)
 
 Or click“New Project”and drag blocks step by step
 
@@ -1940,7 +1693,7 @@ If the code is uploaded successfully a few seconds later, the App will emerge as
 
 Projects above all conduct with the built-in sensors and the LED dot matrix of the main board while the following ones will carry out with the help of external sensors of this turtle car. **（Attention：to avoid burning the the Micro:bit main board V2, please remove the USB cable and the external power from the board before fix it with the shield of the car; likewise, the USB cable and the external power should be cut from the main board before disconnect the shield from the board.)**
 
-## Project 13：Colorful Lights
+### Project 13：Colorful Lights
 
 ![](media/f54b4dd3c57326c5f3a09e967c0e9ec1.png)
 
@@ -2030,7 +1783,7 @@ Download code 2 to micro:bit board, 2 RGB lights show different color cyclically
 
 ([How to download?] [How to quick download?])
 
-## Project 14：WS2812 RGB LEDs
+### Project 14：WS2812 RGB LEDs
 
 ![](media/eecf79fe278bc8107ce6827f9668f560.png)
 
@@ -2257,7 +2010,7 @@ Download code 3 to micro：bit, every WS2812RGB light shows random color one by 
 
 (How to download?] [How to quick download?)
 
-## Project 15：Servo
+### Project 15：Servo
 
 ![](media/ae51208a3f560ad6edefe370eb588c13.png)
 
@@ -2375,7 +2128,7 @@ After uploading the test code and dial POWER switch to ON end, the servo rotates
 
 (How to download?] [How to quick download?)
 
-## Project 16：Motor
+### Project 16：Motor
 
 ![](media/02a16adfdabb92d6de1796019e909b44.png)
 
@@ -2541,7 +2294,7 @@ Download code 2 to micro:bit board, the car goes forward for 2s, turns back for 
 
 ([How to download?] [How to quick download?])
 
-## Project 17：Line Tracking Sensor
+### Project 17：Line Tracking Sensor
 
  **17.1: Detect Line Tracking Sensor**
 
@@ -2908,7 +2661,7 @@ Download code to micro:bit and dial POWER to ON end, line tacking car goes forwa
 
 Note: turn on the switch at the back of micro:bit car, the width of black line should be larger than the width of line tracking sensor. Avoid to test smart car under the strong light.
 
-## Project 18: Ultrasonic Follow Smart Car
+### Project 18: Ultrasonic Follow Smart Car
 
 **18.1: Ultrasonic Ranging**
 
@@ -3271,7 +3024,7 @@ Download code to micro:bit, dial POWER switch to ON end on shield, smart car cou
 
 (How to download?] [How to quick download?)
 
-## Project 19：IR Remote Control
+### Project 19：IR Remote Control
 
  19.1：Decode IR Remote Control
 
@@ -3409,7 +3162,7 @@ Open the cellphone camera , make IR remote control point at camera and press but
 
 Download code to micro: bit board and don’t plug off USB cable Click![](media/1f02508d0c79cd976c673a6a5daba648.png)
 
-([How to quick download?](#_7.3.快速下载))
+([How to quick download?](##_7.3.快速下载))
 
 ![](media/e7bf712e0c8bedc4b0423427848fa395.png)
 
@@ -3585,7 +3338,7 @@ Download code to micro:bit board, and dial POWER to ON end. Make IR remote contr
 
 Note: the distance between IR remote control and IR receiving head of smart car are supposed less than 5m, during the test.
 
-## Project 20: Bluetooth Multi-purpose Smart Car
+### Project 20: Bluetooth Multi-purpose Smart Car
 
 **20.1: Read Bluetooth Data**
 
@@ -3669,13 +3422,13 @@ Then drag out“set rec_data to 0”and place it into block“while connected=1 
 
 Click“Bluetooth”→“more”→“bluetooth uart read until new line( )”
 
-Keep it into 0 box and click triangle button to select \#.
+Keep it into 0 box and click triangle button to select \##.
 
 ![](media/e993122756294214c561f660c3df07ea.png)
 
 Go to“Advanced”→“Serial”→“serial write string”
 
-Move it below“set rec_data...until\#”block
+Move it below“set rec_data...until\##”block
 
 And combine variable“rec_data”with“serial write string”block.
 
@@ -3710,7 +3463,7 @@ Set variable connected to 1
 
 When connected=1, the code under do block will be executed.
 
-Set rec_data to bluetooth uart read until #
+Set rec_data to bluetooth uart read until ##
 
 Serial port prints rec_data
 
@@ -3837,7 +3590,7 @@ Download code to micro:bit board, dial POWER to ON end, and connect the Bluetoot
 
 How to download? How to quick download?
 
-# 9. Resources:
+## Resources:
 
 Download PDF files: https://fs.keyestudio.com/KS4031-4032
 
@@ -3859,6 +3612,6 @@ math library:
 
 utime(sleep_us,tick_us) library:
 
-[https://docs.openmv.io/library/utime.html\#](https://docs.openmv.io/library/utime.html)
+[https://docs.openmv.io/library/utime.html\##](https://docs.openmv.io/library/utime.html)
 
  
