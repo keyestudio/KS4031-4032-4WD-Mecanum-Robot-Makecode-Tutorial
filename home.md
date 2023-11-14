@@ -52,8 +52,8 @@ Note: working voltage of micro:bit is 3.3V, driver shield integrates 3.3V/5V com
 
 ## 4.Kit List
 
-| \# | Picture                                                                                               | Components                                                                 | Quantity |
-|----|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|----------|
+| # | Picture | Components  | Quantity |
+|-----|-----------------------------------------------------------------|----------------------|----------|
 | 1  | ![](makecode/media/c4c1f66bfc8de61faaa619ba91fa7fc2.png)                                                      | KS0511 Acrylic Board T=3mm                                                 | 1        |
 | 2  | ![](makecode/media/7837c0367f7adbd2b21ad6f9a5c4c8b8.png)                                                      | Acrylic Board with Lego Holes T=3mm                                        | 1        |
 | 3  | ![](makecode/media/31d33954620e3b69bfd5557b8e0439e6.png)                                                      | 4.5V Motor                                                                 | 4        |
