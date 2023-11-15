@@ -1334,7 +1334,7 @@ to the OFF end; likewise, before removing the the main board from the car
 expansion board, disconnect the micro USB cable from it and turn off the power
 on the micro:bit motor drive backplane.
 
-### Project 13:Colorful Lights
+### Project 13: Colorful Lights
 
 **(1)Project Description**
 
@@ -1459,7 +1459,7 @@ of smart car flash in 3s and then stop in 3s and repeat this pattern.
 | mecanumCar.left_led(0)                   | Turn off the colorful lights on the left. (1 is on, 0 is off)         |
 | mecanumCar.right_led(0)                  | Turn off the colorful lights on the right. (1 is on, 0 is off)        |
 
-### Project 14:WS2812 RGB LEDs
+### Project 14: WS2812 RGB LEDs
 
 ![](media/eecf79fe278bc8107ce6827f9668f560.png)
 
@@ -1614,7 +1614,7 @@ one.
 | R = 0 G = 0 B = 0                                                                                                                                                                                                                                                           | Set the initial value of variable R to 0 Set the initial value of variable G to 0 Set the initial value of variable B to 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | R = randint(10, 255) G = randint(10, 255) B = randint(10, 255)                                                                                                                                                                                                              | Set R=randint(10, 255) Set G=randint(10, 255) Set B=randint(10, 255)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-### Project 15:Servo
+### Project 15: Servo
 
 ![](media/6f0776b01b35f18b0568158ffbbc7a77.png)
 
@@ -1732,7 +1732,7 @@ After uploading the test code, dialing POWER switch to ON end and powering it by
 external power , the LED dot matrix shows a smiley pattern and the servo rotates
 in the pattern 0°\~45°\~90°\~135°\~180°\~0°.
 
-### Project 16:Motor
+### Project 16: Motor
 
 ![](media/02a16adfdabb92d6de1796019e909b44.png)
 
