@@ -37,8 +37,9 @@ Web version: <https://python.microbit.org/v/1.1>
 
 ![](media/693f76f5975fc256dbc1d2880c80edeb.png)
 
-The other one is the offline compiler tool
-    \-----Mu![IMG_256](media/153c77edd571f12fce0e3282ab6fb530.png)
+The other one is the offline compiler tool\-----Mu
+
+![](media/153c77edd571f12fce0e3282ab6fb530.png)
 
 (Download Mu：<https://codewith.mu/en/download>)
 

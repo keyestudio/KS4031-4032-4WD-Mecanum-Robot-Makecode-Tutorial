@@ -76,9 +76,9 @@ During the process of copying the downloaded hex file to the Micro: bit main boa
 
 After the program is uploaded to the Micro: bit main board, you could still power it via the USB cable or change to via an external power. The 5 x 5 LED dot matrix on the board displays the heartbeat pattern.
 
-| ![](media/d61a26d2f2367f0378974832f679efe1.png) |
-|--------------------------------------------------|--------------------------------------------------|
-| Power via USB cable                              | Power via external power (3V)                    |
+| ![](media/d61a26d2f2367f0378974832f679efe1.png) | 
+|----------------------------------------------------------------------------------------------------
+| Power via USB cable         ，                     Power via external power (3V)                    |
 
 **Caution:**
 

@@ -248,7 +248,7 @@ Please note: This product does not contain batteries.
 |Power supply                      | ![](makecode/media/3d5e4b76b7fd53201f5423d4afc1efb9.png)                                                                                                                                                            |
 | battery                                   | ![Img](./makecode/media/img-20230522083736.png)
                                                                                                                                                             
-**Note the negative and positive poles of the battery**
+**Note the negative and positive poles of the battery！**
 
 ## 7. Resources:
 
